@@ -1,4 +1,1 @@
-pushup
-======
-
-A wordpress theme.
+**pushup** is a Wordpress theme and a Genesis child theme.
