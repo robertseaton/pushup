@@ -32,3 +32,16 @@ function below_post_text() {
 
 /* This removes the header. */
 remove_action('genesis_header','genesis_do_header');
+
+/* This creates a new header, inside the top nav bar. */
+add_filter( 'genesis_nav_items', 'insert_logo', 10, 2);
+add_filter( 'wp_nav_menu_items', 'insert_logo', 10, 2);
+
+/* Add header to menu */
+
+function insert_logo($menu, $args) {
+	/*if ( 'primary' !== $args['theme_location'] )
+		return $menu; */
+     $logo = '<span class="title-area-unthemed"><h1 class="site-title"><a href="'.get_bloginfo('url').'" title="'.get_bloginfo('name').'"><span class="strong">rs</span>.io</a></h1></span>';
+	return $logo . $menu;
+}
