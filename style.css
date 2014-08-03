@@ -203,16 +203,20 @@ ul {
 
 blockquote,
 blockquote::before {
-	color: #999;
+	color: rgba(84, 84, 84, 1);
 }
 
 blockquote {
-	margin: 40px 40px 24px;
-	margin: 4rem 4rem 2.4rem;
+        quotes: none;
+        border-left-width: 4px;
+        border-left-style: solid;
+        font-size: 0.95em;
+        margin: 0px;
+        padding: 0px 1em 0px 1.4em;
+        border-color: #E1E1E1;
 }
 
 blockquote::before {
-	content: "\201C";
 	display: block;
 	font-size: 30px;
 	font-size: 3rem;
