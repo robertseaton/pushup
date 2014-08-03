@@ -15,6 +15,14 @@ function sp_custom_footer() {
      -->
 <?php
                                                                                                                                                                                               }
+
+/* Get Google web fonts. */
+add_action( 'genesis_meta', 'wpb_add_google_fonts', 5);
+
+function wpb_add_google_fonts() {
+		echo '<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto" media="screen">';
+}
+
 /* This is the below post widget area. */
 
 genesis_register_sidebar( array(
@@ -46,9 +54,3 @@ function insert_logo($menu, $args) {
 	return $logo . $menu;
 }
 
-/* Get Google web fonts. */
-add_action( 'genesis_meta', 'wpb_add_google_fonts', 5);
-
-function wpb_add_google_fonts() {
-		echo '<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto" media="screen">';
-}
