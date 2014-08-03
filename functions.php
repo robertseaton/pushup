@@ -45,3 +45,10 @@ function insert_logo($menu, $args) {
      $logo = '<span class="title-area"><h1 class="site-title"><a href="'.get_bloginfo('url').'" title="'.get_bloginfo('name').'"><span class="strong">rs</span>.io</a></h1></span>';
 	return $logo . $menu;
 }
+
+/* Get Google web fonts. */
+add_action( 'genesis_meta', 'wpb_add_google_fonts', 5);
+
+function wpb_add_google_fonts() {
+		echo '<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto" media="screen">';
+}

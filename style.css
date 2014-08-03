@@ -246,8 +246,8 @@ h4,
 h5,
 h6 {
     color: #333;
-    font-family: "adobe-caslon-pro",Georgia,Times,serif;
-    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     line-height: 1.2;
     margin: 0 0 16px;
     margin: 0 0 1.6rem;
