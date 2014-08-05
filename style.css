@@ -857,12 +857,9 @@ Site Header
 }
 
 .site-title {
-	font-size: 28px;
-	font-size: 2.8rem;
-	line-height: 1;
-	margin: 0 0 8px;
-	margin: 0 0 0.8rem;
-	text-transform: uppercase;
+    font-size: 42px;
+    font-family: Helvetica Neue, Arial;
+    font-weight: 700;
 }
 
 .site-title a,
@@ -1089,7 +1086,7 @@ Content Area
 
 .entry-content a {
 	border-bottom: 1px solid #ddd;
-	color: #f15123;
+	color: #268BD2;
 }
 
 .entry-content a:hover {
