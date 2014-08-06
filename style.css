@@ -858,7 +858,7 @@ Site Header
 
 .site-title {
     font-size: 42px;
-    font-family: Helvetica Neue, Arial;
+    font-family: Lato, Helvetica Neue, Arial;
     font-weight: 700;
 }
 
@@ -880,7 +880,6 @@ Site Header
 
 .header-full-width .title-area,
 .header-full-width .site-title {
-	width: 100%;
 }
 
 .header-image .site-description,
