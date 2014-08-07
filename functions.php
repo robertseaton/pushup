@@ -50,7 +50,7 @@ add_filter( 'wp_nav_menu_items', 'insert_logo', 10, 2);
 function insert_logo($menu, $args) {
 	/*if ( 'primary' !== $args['theme_location'] )
 		return $menu; */
-     $logo = '<span class="title-area"><h1 class="site-title"><a href="'.get_bloginfo('url').'" title="'.get_bloginfo('name').'"><span class="strong">rs</span>.io</a></h1></span>';
+     $logo = '<li class="menu-item"><h1 class="site-title"><a href="'.get_bloginfo('url').'" title="'.get_bloginfo('name').'"><span class="strong">rs</span>.io</a></h1></li>';
 	return $logo . $menu;
 }
 
