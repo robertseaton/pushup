@@ -961,7 +961,8 @@ Site Navigation
 }
 
 .genesis-nav-menu > .menu-item > a {
-	text-transform: uppercase;
+    position: relative;
+    top: -3.5px;
 }
 
 .genesis-nav-menu .sub-menu {
