@@ -1120,7 +1120,8 @@ Content Area
 }
 
 .entry-content ul li {
-	list-style-type: disc;
+    margin-bottom: 10px;
+    list-style-type: disc;
 }
 
 .entry-content ol ol,
