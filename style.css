@@ -858,6 +858,8 @@ Site Header
     font-size: 42px;
     font-family: Lato, Helvetica Neue, Arial;
     font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .site-title a,
@@ -923,6 +925,8 @@ Site Header
 /*
 Site Navigation
 ---------------------------------------------------------------------------------------------------- */
+
+
 
 .genesis-nav-menu {
 	color: #999;
