@@ -832,7 +832,8 @@ Site Header
 ---------------------------------------------------------------------------------------------------- */
 
 .site-header {
-	background-color: #fff;
+    background-color: #fff;
+    height: 0px;
 }
 
 .site-header .wrap {
