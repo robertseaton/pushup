@@ -964,6 +964,7 @@ Site Navigation
 .genesis-nav-menu > .menu-item > a {
     position: relative;
     top: -3.5px;
+    font-weight: 700px;
 }
 
 .genesis-nav-menu .sub-menu {
