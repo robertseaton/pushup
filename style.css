@@ -1088,6 +1088,13 @@ Content Area
 	padding: 4rem 4rem 2.4rem;
 }
 
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry content h5 {
+    text-transform: uppercase;
+}
+
 .entry-content a {
 	border-bottom: 1px solid #ddd;
 	color: #268BD2;
