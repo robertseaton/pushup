@@ -1658,6 +1658,10 @@ a {
     color: #FFF;
 }
 
+.nav-primary .current-menu-item > a:hover {
+    color: #FFF;
+}
+
 .site-title a:hover {
     color: #74CDFF;
 }
