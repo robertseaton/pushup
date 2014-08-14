@@ -945,7 +945,7 @@ Site Navigation
 
 .genesis-nav-menu a {
 	border: none;
-	color: #999;
+	color: #6C939F;
 	display: block;
 	padding: 28px 24px;
 	position: relative;
@@ -1052,7 +1052,7 @@ Site Navigation
 --------------------------------------------- */
 
 .nav-primary {
-	background-color: #333;
+	background-color: #022835;
 }
 
 .nav-primary a:hover,
