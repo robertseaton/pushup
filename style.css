@@ -1060,7 +1060,7 @@ li.menu-item:nth-child(1) {
 
 .nav-primary a:hover,
 .nav-primary .current-menu-item > a {
-	color: #fff;
+	color: #74CDFF;
 }
 
 .nav-primary .sub-menu a:hover {
@@ -1623,4 +1623,41 @@ Media Queries
 .site-title > a:nth-child(1) {
     padding-top: 0px;
     padding-bottom: 0px;
+}
+
+.strong {
+
+}
+
+a:hover {
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+a {
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.site-title span {
+        color: #74CDFF;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.site-title a:hover span {
+    color: #FFF;
+}
+
+.site-title a:hover {
+    color: #74CDFF;
 }
