@@ -945,7 +945,7 @@ Site Navigation
 
 /* site title */
 li.menu-item:nth-child(1) {
-    float: right;
+    float: left;
 }
 
 .genesis-nav-menu a {
