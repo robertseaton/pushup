@@ -1689,3 +1689,12 @@ a {
 .enews form + p {
     margin-top: 24px;
 }
+
+.textwidget {
+    color: black;
+    font-family: Lato;
+}
+
+.textwidget a {
+    color: #268BD2;
+}
