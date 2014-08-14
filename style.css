@@ -1665,3 +1665,9 @@ a {
 .site-title a:hover {
     color: #74CDFF;
 }
+
+/* Hide date */
+.post-76 > header:nth-child(1) > p:nth-child(2) > time:nth-child(1) {
+    display: none;
+}
+
