@@ -1607,6 +1607,14 @@ Media Queries
 		width: 100%;
 	}
 
+
+        .site-title {
+            font-size: 32px;
+        }
+
+        .genesis-nav-menu .menu-item {
+            font-size: 16px;
+        }
 }
 
 /* Custom elements. */
