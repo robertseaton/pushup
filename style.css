@@ -144,7 +144,6 @@ body {
         -moz-osx-font-smoothing: grayscale;
         text-align: justify;
 }
-}
 
 a,
 button,
@@ -1671,3 +1670,18 @@ a {
     display: none;
 }
 
+.enews {
+    font-family: Lato;
+}
+
+.enews p {
+    color: #FFF;
+}
+
+#subbutton {
+    font-weight: 700;
+}
+
+.enews form + p {
+    margin-top: 24px;
+}
