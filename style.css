@@ -1606,13 +1606,16 @@ Media Queries
 		margin: 0;
 		width: 100%;
 	}
+}
 
+@media only screen and (max-width: 500px) {
         .genesis-nav-menu .menu-item {
             display: none;
         }
 
         li.menu-item:nth-child(1) {
             display: block;
+            padding-bottom: 5px;
         }
 }
 
