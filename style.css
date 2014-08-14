@@ -1607,13 +1607,12 @@ Media Queries
 		width: 100%;
 	}
 
-
-        .site-title {
-            font-size: 32px;
+        .genesis-nav-menu .menu-item {
+            display: none;
         }
 
-        .genesis-nav-menu .menu-item {
-            font-size: 16px;
+        li.menu-item:nth-child(1) {
+            display: block;
         }
 }
 
