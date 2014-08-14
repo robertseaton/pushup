@@ -1698,3 +1698,7 @@ a {
 .textwidget a {
     color: #268BD2;
 }
+
+.entry-time {
+    display: none;
+}
