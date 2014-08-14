@@ -861,7 +861,6 @@ Site Header
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-right: 550px;
 }
 
 .site-title a,
@@ -941,6 +940,12 @@ Site Navigation
 	display: inline-block;
 	text-align: left;
         padding-left: 30px;
+        float: right;
+}
+
+/* site title */
+li.menu-item:nth-child(1) {
+    float: right;
 }
 
 .genesis-nav-menu a {
