@@ -951,7 +951,7 @@ li.menu-item:nth-child(1) {
 	border: none;
 	color: #6C939F;
 	display: block;
-	padding: 28px 24px;
+	padding: 17px 24px 0px;
 	position: relative;
 }
 
