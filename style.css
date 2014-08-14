@@ -859,7 +859,6 @@ Site Header
     font-size: 42px;
     font-family: Lato, Helvetica Neue, Arial;
     font-weight: 700;
-    margin-top: 5px;
     margin-bottom: 5px;
 }
 
@@ -951,7 +950,7 @@ li.menu-item:nth-child(1) {
 	border: none;
 	color: #6C939F;
 	display: block;
-	padding: 17px 24px 0px;
+	padding: 15px 24px 0px;
 	position: relative;
 }
 
