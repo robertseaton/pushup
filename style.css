@@ -948,7 +948,7 @@ li.menu-item:nth-child(1) {
 
 .genesis-nav-menu a {
 	border: none;
-	color: #6C939F;
+	color: #FFF;
 	display: block;
 	padding: 15px 24px 0px;
 	position: relative;
@@ -1055,7 +1055,7 @@ li.menu-item:nth-child(1) {
 --------------------------------------------- */
 
 .nav-primary {
-	background-color: #022835;
+	background-color: #333;
 }
 
 .nav-primary a:hover,
