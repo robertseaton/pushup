@@ -142,6 +142,7 @@ body {
 	font-size: 2rem;
         line-height: 2.8rem;
         -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
         text-align: justify;
 }
 
@@ -1701,4 +1702,10 @@ a {
 
 .entry-time {
     display: none;
+}
+
+.quote-attribute {
+    font-style: italic;
+    display: inline-block;
+    margin-top: 10px;
 }
