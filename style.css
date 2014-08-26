@@ -1704,7 +1704,7 @@ a {
     display: none;
 }
 
-.quote-attribute {
+#quote-attribute {
     font-style: italic;
     display: inline-block;
     margin-top: 10px;
