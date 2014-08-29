@@ -228,8 +228,7 @@ blockquote::before {
 }
 
 .entry-content code {
-	background-color: #333;
-	color: #ddd;
+
 }
 
 cite {
