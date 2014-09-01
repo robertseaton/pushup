@@ -1633,11 +1633,11 @@ Media Queries
         }
 
         #invbr {
-            display: initial;
+            display: initial !important;
         }
 
         #mobile-nav {
-            display: initial;
+            display: initial !important;
         }
 }
 
