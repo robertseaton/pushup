@@ -1611,6 +1611,9 @@ Media Queries
 }
 
 @media only screen and (max-width: 500px) {
+    .genesis-nav-menu .menu-item {
+            display: initial;
+        }
         .genesis-nav-menu .menu-item {
             display: none;
             float: none;
@@ -1629,9 +1632,6 @@ Media Queries
             content: '\A';
         }
 
-        #menu-item-61 {
-            margin-top: 30px;
-        }
 }
 
 /* Custom elements. */
