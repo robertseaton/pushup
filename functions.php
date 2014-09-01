@@ -51,7 +51,7 @@ function insert_logo($menu, $args) {
 	/*if ( 'primary' !== $args['theme_location'] )
 		return $menu; */
      $logo = '<li class="menu-item"><h1 class="site-title"><a href="'.get_bloginfo('url').'" title="'.get_bloginfo('name').'"><span class="strong">rs</span>.io</a></h1></li>';
-     $mobile_menu_button = '<div id="mobile-nav"><a href="#" class="icon-menu"></a></div>';
+     $mobile_menu_button = '<div id="mobile-nav"><a href="#" class="icon-menu"></a></div><div id="invbr"><br /></div>';
 	return $logo . $mobile_menu_button . $menu;
 }
 
