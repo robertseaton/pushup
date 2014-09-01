@@ -54,3 +54,26 @@ function insert_logo($menu, $args) {
 	return $logo . $menu;
 }
 
+/* JavaScript */
+
+// Enqueue pushup.js - Crunchify Tips
+add_action( 'wp_enqueue_scripts', 'crunchify_enqueue_script' );
+function crunchify_enqueue_script() {
+    wp_enqueue_script( 'follow', get_stylesheet_directory_uri() . '/js/pushup.js', array( 'jquery' ), '', true );
+}
+
+/** Remove jQuery and jQuery-ui scripts loading from header */
+add_action('wp_enqueue_scripts', 'crunchify_script_remove_header');
+function crunchify_script_remove_header() {
+      wp_deregister_script( 'jquery' );
+      wp_deregister_script( 'jquery-ui' );
+}
+ 
+/** Load jQuery and jQuery-ui script  just before closing Body tag */
+add_action('genesis_after_footer', 'crunchify_script_add_body');
+function crunchify_script_add_body() {
+      wp_register_script( 'jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js' );
+      wp_register_script( 'jquery-ui', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js' );
+      wp_enqueue_script( 'jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js', array( 'jquery' ), '4.0', false );
+      wp_enqueue_script( 'jquery-ui', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js', array( 'jquery' ), '1.10.3' );
+}
