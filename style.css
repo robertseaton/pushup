@@ -1735,25 +1735,21 @@ a {
     font-variant: normal;
     text-transform: none;
     line-height: 1em;
-    margin-left: 0.2em;
+    margin-left: 0.0em;
 }
 
 #mobile-nav a.icon-menu {
     font-size: 26px;
-    border-left: 1px solid #222;
     text-decoration: none;
 }
 
 #mobile-nav a {
-    background: none repeat scroll 0% 0% #268BD2;
-}
-
-#mobile-nav a {
+    background: none repeat scroll 0% 0% #74CDFF;
     color: #FFF;
     display: block;
     float: right;
-    height: 50px;
-    line-height: 50px;
+    height: 60px;
+    line-height: 20px;
     text-align: center;
-    width: 50px;
+    width: 60px;
 }
