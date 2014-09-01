@@ -1783,3 +1783,7 @@ a {
 #mobile-nav {
     display: none;
 }
+
+li.menu-item:nth-child(1) {
+    display: initial !important;
+}
