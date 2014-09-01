@@ -1622,13 +1622,14 @@ Media Queries
         li.menu-item:nth-child(1) {
             display: block;
             padding-bottom: 5px;
+            border-style: none;
         }
 
         #menu-item-61:before {
             content: '\A';
         }
 
-        #menu-item-61:before {
+        #menu-item-61 {
             margin-top: 30px;
         }
 }
