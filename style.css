@@ -1712,3 +1712,48 @@ a {
 #wp-caption-text {
     font-size: 15px;
 }
+
+/* mobile menu display button */
+
+#mobile-nav a:before {
+    line-height: 50px;
+}
+
+.icon-menu:before {
+    content: "☰";
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "icon-font";
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: 0.2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: 0.2em;
+}
+
+#mobile-nav a.icon-menu {
+    font-size: 26px;
+    border-left: 1px solid #222;
+    text-decoration: none;
+}
+
+#mobile-nav a {
+    background: none repeat scroll 0% 0% #268BD2;
+}
+
+#mobile-nav a {
+    color: #FFF;
+    display: block;
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+}
