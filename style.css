@@ -1618,7 +1618,7 @@ Media Queries
             display: none;
             float: none;
             text-align: center;
-            border-style: solid none solid none;
+            border-style: solid none none none;
             border-width: 1px;
         }
 
@@ -1628,10 +1628,17 @@ Media Queries
             border-style: none;
         }
 
-        #menu-item-61:before {
-            content: '\A';
+        #menu-item-61 {
+            margin-top:30px;
         }
 
+        #invbr {
+            display: initial;
+        }
+
+        #mobile-nav {
+            display: initial;
+        }
 }
 
 /* Custom elements. */
@@ -1767,4 +1774,12 @@ a {
     line-height: 20px;
     text-align: center;
     width: 60px;
+}
+
+#invbr {
+    display: none;
+}
+
+#mobile-nav {
+    display: none;
 }
