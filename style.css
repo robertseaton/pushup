@@ -1787,3 +1787,10 @@ a {
 li.menu-item:nth-child(1) {
     display: initial !important;
 }
+
+.fusion-poweredby {
+    margin-top: 15px;
+    display: block;
+    font-size: 35px;
+    text-align: left;
+}
