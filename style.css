@@ -1794,3 +1794,7 @@ li.menu-item:nth-child(1) {
     font-size: 15px;
     text-align: left;
 }
+
+.entry-footer .enews p {
+	color: black;
+}
