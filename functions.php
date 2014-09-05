@@ -73,8 +73,10 @@ function crunchify_script_remove_header() {
 /** Load jQuery and jQuery-ui script  just before closing Body tag */
 add_action('genesis_after_footer', 'crunchify_script_add_body');
 function crunchify_script_add_body() {
-      wp_register_script( 'jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js' );
+     wp_register_script( 'jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js' );
+     wp_register_script( 'add-this', 'http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e98cc990c4e19d6');
       wp_register_script( 'jquery-ui', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js' );
       wp_enqueue_script( 'jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js', array( 'jquery' ), '4.0', false );
       wp_enqueue_script( 'jquery-ui', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js', array( 'jquery' ), '1.10.3' );
+      wp_enqueue_script( 'add-this', 'http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e98cc990c4e19d6', array( 'addthis' ), '0.1' );
 }
