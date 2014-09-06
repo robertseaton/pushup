@@ -60,7 +60,7 @@ function insert_logo($menu, $args) {
 // Enqueue pushup.js - Crunchify Tips
 add_action( 'wp_enqueue_scripts', 'crunchify_enqueue_script' );
 function crunchify_enqueue_script() {
-    wp_enqueue_script( 'follow', get_stylesheet_directory_uri() . '/js/pushup.js', array( 'jquery' ), '', true );
+    
 }
 
 /** Remove jQuery and jQuery-ui scripts loading from header */
@@ -79,4 +79,5 @@ function crunchify_script_add_body() {
       wp_enqueue_script( 'jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js', array( 'jquery' ), '4.0', false );
       wp_enqueue_script( 'jquery-ui', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js', array( 'jquery' ), '1.10.3' );
       wp_enqueue_script( 'add-this', 'http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e98cc990c4e19d6', array( 'addthis' ), '0.1' );
+      wp_enqueue_script( 'follow', get_stylesheet_directory_uri() . '/js/pushup.js', array( 'jquery' ), '', true );
 }
