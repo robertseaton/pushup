@@ -1638,6 +1638,7 @@ Media Queries
         #menu-item-602 {
             margin-top: 30px;
         }
+        
 }
 
 /* Custom elements. */
@@ -1806,4 +1807,16 @@ li.menu-item:nth-child(1) {
 
 .sidebar a {
     color: #74CDFF;
+}
+
+#topline {
+    font-size: 40px;
+}
+
+#product_tease {
+    font-size: 25px;
+}
+
+#report_desc {
+    font-size: 30px;
 }
