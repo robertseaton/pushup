@@ -1804,3 +1804,7 @@ li.menu-item:nth-child(1) {
 	font-size: 12px; line-height: 1.2;
 	display: block; margin-bottom: 12px;
 }
+
+.sidebar a {
+    color: #74CDFF;
+}
