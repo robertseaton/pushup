@@ -27,7 +27,7 @@ function genesis_404() {
 		printf( '<h1 class="entry-title">%s</h1>', __( 'Your page couldn\'t be found!', 'genesis' ) );
 		echo '<div class="entry-content">';
 
-				echo '<p> Don\'t worry. I\'ve launched a full investigation. At least one engineer will pay dearly for this. </p> <p> But don\'t leave empty handed. Snag this free giveaway... </p> <h2 id="topline">Free Report Reveals:</h2> <p id="report_desc">The 5 Tools I Use To Maximize My Productivity (99.9% of Visitors Haven\'t Heard of #5)</p><section id="enews-ext-3" class="widget enews-widget">
+				echo '<p> Don\'t worry. I\'ve launched a full investigation. At least one engineer will pay dearly for this. </p> <p> But don\'t leave empty handed. Snag this free giveaway... </p> <h2 id="topline">Free Report Reveals:</h2> <p id="report_desc">The 5 Tools I Use To Maximize My Productivity </p><p id="product_tease">(99.9% of Visitors Haven\'t Heard of #5)</p><section id="enews-ext-3" class="widget enews-widget">
 <div class="widget-wrap">
 <div class="enews"><form id="subscribe" action="http://rs.us8.list-manage.com/subscribe/post?u=e5616317a284d75431640f30c&amp;id=b2b92d2757" method="post" name="" target="_blank"><label class="screenread" for="subbox">E-Mail Address</label><input id="subbox" name="EMAIL" required="required" type="email" value="E-Mail Address" />
 <input id="subbutton" type="submit" value="Free Instant Access" /></form></div>
