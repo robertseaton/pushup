@@ -1799,11 +1799,11 @@ li.menu-item:nth-child(1) {
 	color: black;
 }
 
-.comment-respond:before {
-	content: "Commenting Policy: If you leave a mean comment, two things happen. First, I assume that you're not mature enough to use the internet without parental supervision and, second, I edit your comment so that it's filled with lavish praise for my writing and more in line with the thoughtful comment that I wish I'd received.";
-	font-size: 12px; line-height: 1.2;
-	display: block; margin-bottom: 12px;
-}
+/* .comment-respond:before { */
+/* 	content: "Commenting Policy: If you leave a mean comment, two things happen. First, I assume that you're not mature enough to use the internet without parental supervision and, second, I edit your comment so that it's filled with lavish praise for my writing and more in line with the thoughtful comment that I wish I'd received."; */
+/* 	font-size: 12px; line-height: 1.2; */
+/* 	display: block; margin-bottom: 12px; */
+/* } */
 
 .sidebar a {
     color: #74CDFF;
@@ -1820,3 +1820,4 @@ li.menu-item:nth-child(1) {
 #report_desc {
     font-size: 30px;
 }
+
