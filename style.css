@@ -1831,4 +1831,10 @@ li.menu-item:nth-child(1) {
     padding: 25px;
     display: none;
     width: 500px;
+    margin: auto;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 4px;
 }
