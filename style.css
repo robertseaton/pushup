@@ -1821,3 +1821,6 @@ li.menu-item:nth-child(1) {
     font-size: 30px;
 }
 
+#subscribe_popup {
+    display: none;
+}
