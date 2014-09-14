@@ -355,7 +355,6 @@ input:hover[type="reset"],
 input:hover[type="submit"],
 .button:hover,
 .entry-content .button:hover {
-	background-color: #f15123;
 }
 
 .entry-content .button:hover {
