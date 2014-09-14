@@ -1861,3 +1861,7 @@ li.menu-item:nth-child(1) {
     border-radius: 10px;
 }
 
+.close {
+    float: right;
+    margin-left: -50px;
+}
