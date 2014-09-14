@@ -30,7 +30,7 @@ jQuery(function( $ ){
 
             });
             
-            $('.close').bPopup().close();
+            $('.close').bind('click', bPopup().close(););
         });
 
 })(jQuery);
