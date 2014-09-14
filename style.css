@@ -1892,3 +1892,7 @@ li.menu-item:nth-child(1) {
     background-color: #fff;
     color: #333;
 }
+
+.site-footer {
+    background-color: #74CDFF;
+}
