@@ -28,6 +28,16 @@ jQuery(function( $ ){
                 });
 
             });
+
+            $('#.close').bind('click', function(j) {
+
+                // Prevents the default action to be triggered. 
+                e.preventDefault();
+
+                // Triggering bPopup when click event is fired
+                $('#subscribe_popup').bPopup().close();
+
+            });
             
 /*            $('.close').bind('click', bPopup().close();); */
         });
