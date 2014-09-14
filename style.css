@@ -1835,7 +1835,7 @@ li.menu-item:nth-child(1) {
 
 .popup-title {
     text-align: center;
-    font-size: 32px;
+1    font-size: 32px;
     font-family: Lato;
     background-color: #333;
 }
@@ -1863,4 +1863,5 @@ li.menu-item:nth-child(1) {
 .close {
     float: right;
     margin-left: -50px;
+    padding: 0px;
 }
