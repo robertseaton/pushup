@@ -29,14 +29,8 @@ jQuery(function( $ ){
 
             });
 
-            $('#.close').bind('click', function(j) {
-
-                // Prevents the default action to be triggered. 
-                e.preventDefault();
-
-                // Triggering bPopup when click event is fired
+            $('.close').bind('click', function(j) {
                 $('#subscribe_popup').bPopup().close();
-
             });
             
 /*            $('.close').bind('click', bPopup().close();); */
