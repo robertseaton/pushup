@@ -1831,20 +1831,20 @@ li.menu-item:nth-child(1) {
     padding: 25px;
     display: none;
     width: 500px;
-    margin: auto;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    border-radius: 4px;
+    /* margin: auto; */
+    /* top: 0px; */
+    /* right: 0px; */
+    /* bottom: 0px; */
+    /* left: 0px; */
+    /* border-radius: 4px; */
 }
 
-/* .popup-title { */
-/*     text-align: center; */
-/*     font-size: 32px; */
-/*     font-family: Lato; */
-/* } */
+.popup-title {
+    text-align: center;
+    font-size: 32px;
+    font-family: Lato;
+}
 
-/* #subscribe_popup > center:nth-child(2) > div:nth-child(1) { */
-/*     width: 75%; */
-/* } */
+#subscribe_popup > center:nth-child(2) > div:nth-child(1) {
+    width: 75%;
+}
