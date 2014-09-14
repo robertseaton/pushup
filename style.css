@@ -1864,4 +1864,5 @@ li.menu-item:nth-child(1) {
     float: right;
     margin-left: -50px;
     padding: 0px;
+    padding-right: 8px;
 }
