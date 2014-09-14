@@ -22,7 +22,6 @@ jQuery(function( $ ){
 
                 // Triggering bPopup when click event is fired
                 $('#subscribe_popup').bPopup({
-                    easing: 'easeOutBack', //uses jQuery easing plugin
                     speed: 450,
                     transition: 'slideDown',
                     transitionClose: 'slideUp'
