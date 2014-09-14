@@ -22,7 +22,7 @@ jQuery(function( $ ){
 
                 // Triggering bPopup when click event is fired
                 $('#subscribe_popup').bPopup({
-                    speed: 450,
+                    speed: 600,
                     transition: 'slideDown',
                     transitionClose: 'slideUp'
                 });
