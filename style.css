@@ -1831,20 +1831,29 @@ li.menu-item:nth-child(1) {
     padding: 25px;
     display: none;
     width: 500px;
-    /* margin: auto; */
-    /* top: 0px; */
-    /* right: 0px; */
-    /* bottom: 0px; */
-    /* left: 0px; */
-    /* border-radius: 4px; */
+    padding: 0px;
 }
 
 .popup-title {
     text-align: center;
     font-size: 32px;
     font-family: Lato;
+    background-color: #333;
 }
 
 #subscribe_popup > center:nth-child(2) > div:nth-child(1) {
     width: 75%;
+    margin-bottom: 0px;
 }
+
+.popup-body {
+    padding: 20px 35px;
+}
+
+.popup-title > h3:nth-child(1) {
+    color: #FFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+}
+
