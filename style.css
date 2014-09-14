@@ -1858,5 +1858,6 @@ li.menu-item:nth-child(1) {
     padding-top: 15px;
     padding-bottom: 15px;
     margin-bottom: 0px;
+    border-radius: 10px;
 }
 

@@ -21,10 +21,18 @@ jQuery(function( $ ){
                 e.preventDefault();
 
                 // Triggering bPopup when click event is fired
-                $('#subscribe_popup').bPopup();
+                $('#subscribe_popup').bPopup({
+                    easing: 'easeOutBack', //uses jQuery easing plugin
+                    speed: 450,
+                    transition: 'slideDown',
+                    transitionClose: 'slideUp'
+                });
 
             });
-
+            
+            $('.close').bPopup().close();
         });
 
 })(jQuery);
+
+
