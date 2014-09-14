@@ -1866,3 +1866,29 @@ li.menu-item:nth-child(1) {
     padding: 0px;
     padding-right: 8px;
 }
+
+.footer-widgets-1 {
+    width: 100%;
+}
+
+#bottom-newsletter {
+    text-align: center;
+}
+
+#top-bottom-newsletter {
+    color: #FFF;
+    font-size: 28px;
+}
+
+.footer-widgets {
+    background-color: #74CDFF;
+}
+
+#popup_button {
+    border-radius: 5px;
+}
+
+#popup_button:hover {
+    background-color: #fff;
+    color: #333;
+}
