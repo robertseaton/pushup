@@ -29,6 +29,20 @@ jQuery(function( $ ){
 
             });
 
+            $('.btn-popup-about').bind('click', function(e) {
+
+                // Prevents the default action to be triggered. 
+                e.preventDefault();
+
+                // Triggering bPopup when click event is fired
+                $('#subscribe_popup').bPopup({
+                    speed: 600,
+                    transition: 'slideDown',
+                    transitionClose: 'slideUp'
+                });
+
+            });
+
             $('.close').bind('click', function(j) {
                 $('#subscribe_popup').bPopup().close();
             });
