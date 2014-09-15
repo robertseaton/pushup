@@ -1901,5 +1901,6 @@ li.menu-item:nth-child(1) {
     margin-top: -40px;
     font-family: Lato;
     background-color: #74CDFF;
+    border-radius: 4px;
 }
 
